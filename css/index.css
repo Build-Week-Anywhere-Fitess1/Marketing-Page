@@ -303,12 +303,139 @@ a {
 .header ul li a {
   color: #218BCC;
 }
+.classh2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #218BCC;
+  font-size: 36px;
+  font-family: Ranga;
+  background: #AEEA4F;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.classname {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: #AEEA4F;
+  padding-bottom: 2rem;
+}
+#img1 {
+  display: flex;
+  margin-right: 10rem;
+}
+#img2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-left: 27rem;
+}
+@media (max-width: 800px) {
+  .classname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .classh2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  #img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    margin-right: 5rem;
+  }
+  #img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-right: 5rem;
+  }
+}
+.classcontent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 40%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  background: white;
+  background-size: 25%;
+}
+.classcontent1 h3 {
+  color: #218BCC;
+  font-size: 22px;
+  margin-bottom: 1rem;
+}
+.classcontent1 p {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+.classcontent2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background-color: white;
+  margin-right: 1rem;
+}
+.classcontent2 h3 {
+  display: flex;
+  color: #218BCC;
+  font-size: 22px;
+  margin-bottom: 1rem;
+}
+.classcontent2 p {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 1rem;
+}
+@media (max-width: 500px) {
+  .classname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  #img1 {
+    margin-right: 3rem;
+  }
+  #img2 {
+    margin-left: 14rem;
+  }
+  .classcontent1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .classcontent2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .mission {
   background-color: #AFAFAF;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.mission h2 {
+  margin-bottom: 25vh;
+  margin-top: 25vh;
 }
 .contact {
   display: flex;
@@ -353,4 +480,9 @@ footer .sm-logo {
 footer .txt {
   color: white;
   text-align: center;
+}
+h2 {
+  color: #218BCC;
+  font-size: 36px;
+  font-family: Ranga;
 }
